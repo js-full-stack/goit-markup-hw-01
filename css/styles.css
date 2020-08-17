@@ -1,3 +1,50 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+/* Логотип */
+
+.logo {
+  color: #000000;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* Навигация */
+.site-nav .link {
+  text-decoration: none;
+  color: #212121;
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+
+/* Контакты */
+.contacts .link {
+  color: #757575;
+}
+
+.contacts .link:hover,
+.contacts .link:focus {
+  color: #2196f3;
+}
+
+.site-nav/*Навигация синий + logo web 	#2196F3
+Навигация черный + основной	#212121
+Номер в шапке, преимущества, должности 	#757575
+h1 	#FFFFFF
+background основной #ffffff
+background section 1	#2F303A
+  */;
